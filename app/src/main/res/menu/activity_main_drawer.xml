@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Joseph Profile" />
+
+        <item
+            android:id="@+id/nav_add_lawyer"
+            android:title="Add Admin | Lawyer Pannel" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:title="Calendar" />
+
+        <item  android:title="Enquiry"
+            android:id="@+id/nav_enquiry"/>
+        <item  android:title="Performance"
+            android:id="@+id/nav_performance"/>
+        <item
+            android:id="@+id/nav_pending_approvals"
+            android:title="Pending Approvals" />
+        <item  android:title="Notifications"
+            android:id="@+id/nav_notificaations"/>
+        <item  android:title="Summary"
+            android:id="@+id/nav_summary"/>
+        <item  android:title="Logout"
+            android:id="@+id/nav_logout"/>
+
+
+    </group>
+
+    <!-- <item android:title="Communicate">
+         <menu>
+             <item
+                 android:id="@+id/nav_share"
+                 android:icon="@drawable/ic_menu_share"
+                 android:title="Share" />
+             <item
+                 android:id="@+id/nav_send"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="Send" />
+         </menu>
+     </item>-->
+
+</menu>

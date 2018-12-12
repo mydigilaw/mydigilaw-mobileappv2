@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mydigilaw.beta_mydigilaw">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Personal_Law" />
+        <activity android:name=".Corporate_Law" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Law_Maintence" />
+        <activity android:name=".Law_Divorce" />
+        <activity android:name=".Law_Property" />
+        <activity android:name=".Law_Passport" />
+        <activity android:name=".Law_Disputes" />
+        <activity android:name=".Law_Personal_Banking" />
+        <activity android:name=".Law_Online_Crime" />
+        <activity android:name=".Law_Councelling" />
+
+        <activity android:name=".Law_Company" />
+        <activity android:name=".Law_Labour" />
+        <activity android:name=".Law_Taxation" />
+        <activity android:name=".Law_Banking" />
+        <activity android:name=".Law_Customs" />
+        <activity android:name=".Law_Copyright" />
+        <activity android:name=".Law_Cyber" />
+        <activity android:name=".Law_Arbitration" />
+        <activity android:name=".Law_wildlife" />
+        <activity android:name=".Law_Entertainment" />
+        <activity android:name=".Law_Commercial" />
+
+        <activity android:name=".First_Information_Form" />
+        <activity android:name=".Add_Admin" />
+        <activity android:name=".Add_Lawyer" />
+        <activity android:name=".Profile_Update" />
+        <activity android:name=".Chart" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".Enquiry"></activity>
+    </application>
+
+</manifest>

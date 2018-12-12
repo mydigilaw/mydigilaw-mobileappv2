@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+         <TextView
+       android:id="@+id/headingtv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="20dp"
+       android:gravity="center_horizontal"
+       android:padding="20dp"
+       android:text="Case Information Form - For Advocate's Use"
+       android:textColor="#fff"
+       android:textSize="28sp"
+       android:textStyle="bold" />
+
+   <EditText
+       android:id="@+id/edt_1"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginLeft="10dp"
+
+       android:layout_marginRight="10dp"
+       android:adjustViewBounds="true"
+       android:alpha="0.7"
+       android:background="@drawable/edittext"
+       android:hint="Name "
+       android:padding="10dp"
+       android:textColor="#fff"
+       android:textColorHint="#fff" />
+
+   <EditText
+       android:id="@+id/edt_2"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="10dp"
+       android:adjustViewBounds="true"
+       android:alpha="0.7"
+       android:background="@drawable/edittext"
+       android:hint="Phone Number"
+       android:padding="10dp"
+       android:textColor="#fff"
+       android:textColorHint="#fff" />
+   <EditText
+       android:id="@+id/edt_3"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="10dp"
+       android:adjustViewBounds="true"
+       android:alpha="0.7"
+       android:background="@drawable/edittext"
+       android:hint="Email id"
+       android:padding="10dp"
+       android:textColor="#fff"
+       android:textColorHint="#fff" />
+
+   <EditText
+       android:id="@+id/edt_4"
+       android:layout_width="match_parent"
+       android:layout_height="140dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="10dp"
+       android:adjustViewBounds="true"
+       android:alpha="0.7"
+       android:background="@drawable/edittext"
+       android:hint="Address for Communication "
+       android:paddingLeft="10dp"
+       android:paddingBottom="70dp"
+       android:textColor="#fff"
+       android:textColorHint="#fff" />
+
+   <EditText
+       android:id="@+id/edt_5"
+       android:layout_width="match_parent"
+       android:layout_height="140dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="10dp"
+       android:adjustViewBounds="true"
+       android:alpha="0.7"
+       android:paddingLeft="10dp"
+       android:background="@drawable/edittext"
+       android:hint="Information about Case "
+       android:paddingBottom="70dp"
+       android:textColor="#fff"
+       android:textColorHint="#fff" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
